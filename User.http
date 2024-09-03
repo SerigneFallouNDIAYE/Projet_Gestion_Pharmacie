@@ -1,0 +1,15 @@
+
+### Créer un nouvel utilisateur - Ibrahima Ndiaye
+POST http://localhost:8080/user
+Content-Type: application/json
+
+{
+  "firstname": "fallou",
+  "lastname": "Ndiaye",
+  "email": "fallou@gmail.com",
+  "password": "sfnsn",
+  "profile": "EMPLOYE"
+}
+
+### Lister tous les utilisateurs
+GET http://localhost:8080/user
